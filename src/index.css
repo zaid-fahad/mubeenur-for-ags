@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sea-green: #2e8b57;
+  --color-sea-deep: #064e3b;
+  --color-campaign-amber: #f59e0b;
+  --animate-float: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(-1deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(1deg);
+  }
+}
+
+.hero-dot-pattern {
+  background-image: radial-gradient(
+    var(--color-sea-green) 0.8px,
+    transparent 0.8px
+  );
+  background-size: 24px 24px;
+}
+
+@media print {
+  @page {
+    size: A5 landscape;
+    margin: 0;
+  }
+  body * {
+    visibility: hidden;
+  }
+  #printable-slip,
+  #printable-slip * {
+    visibility: visible;
+  }
+  #printable-slip {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 210mm;
+    height: 148mm;
+    background: white !important;
+    z-index: 10000;
+    display: flex !important;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
