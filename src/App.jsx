@@ -18,10 +18,113 @@ const VOTER_DATA = [
   { name: "Adil Ahmed Shamim", id: "21-45190-2", phone: "01704387624" },
   { name: "Ahnaf Tahmid", id: "21-45447-3", phone: "01632078885" },
   { name: "Sunipun Seemanta", id: "22-47547-2", phone: "01839029142" },
-  { name: "Mubeenur Rahman", id: "24-57255-2", phone: "01309542330" },
+  { name: "Abu Sayeed Khondoker Fahim", id: "23-51408-1", phone: "01791491386" },
+  { name: "Ahnaaf Akif Khan", id: "23-55245-3", phone: "01518987125" },
+  { name: "Aswad Aman", id: "23-51109-1", phone: "01753757304" },
+  { name: "Atoshi Saha", id: "22-48762-3", phone: "01709406087" },
+  { name: "Dola Das", id: "23-51543-1", phone: "01851219416" },
+  { name: "Fardeen Faruk", id: "23-51410-1", phone: "01742468303" },
+  { name: "Fatiha Sania Salsabil", id: "23-51147-1", phone: "01990425026" },
+  { name: "Fatimatuz Zohura Monisha", id: "22-46604-1", phone: "01706240292" },
+  { name: "Fida Al Faruquee", id: "23-51111-1", phone: "01754408139" },
+  { name: "Gourav Banik", id: "23-51112-1", phone: "01825126135" },
+  { name: "Hasibul Hasan", id: "23-50005-1", phone: "01753448493" },
+  { name: "Inkiad Hossain Arko", id: "23-50201-1", phone: "01794713733" },
+  { name: "Ishrak Farhan", id: "21-45097-2", phone: "01830209424" },
+  { name: "Ismat Ara Mou", id: "23-51115-1", phone: "01580979893" },
+  { name: "Jebin Sultana", id: "23-51117-1", phone: "01763138379" },
+  { name: "Julkarnain Mahmud", id: "21-44755-1", phone: "01580320697" },
+  { name: "Khadija Farzana", id: "21-45455-3", phone: "01931651848" },
+  { name: "Lamia Tahsin", id: "21-45372-2", phone: "01712415175" },
+  { name: "M. A. Hasib Al Masud", id: "23-50117-1", phone: "01905380582" },
+  { name: "MAHMUDUL HASAN RIDOY", id: "23-51208-1", phone: "01511252136" },
+  { name: "Mayesha Labiba", id: "23-51545-1", phone: "01715454652" },
+  { name: "MD Al Shafiur", id: "23-51210-1", phone: "01757833054" },
+  { name: "MD ARID HASAN", id: "23-51121-1", phone: "01940989326" },
+  { name: "MD EMAM MEHDI HOSSAIN", id: "22-47805-2", phone: "01303862660" },
+  { name: "Md Jobair Alam Jisan", id: "22-48763-3", phone: "01764724021" },
+  { name: "MD MAHI UDDIN", id: "21-44709-1", phone: "01515286906" },
+  { name: "MD MOHTASIM BILLAH", id: "23-51546-1", phone: "01521796593" },
+  { name: "MD SAIDUR RAHMAN", id: "22-47545-2", phone: "01303494541" },
+  { name: "Md Shuvo Sheikh", id: "22-47314-2", phone: "01306915031" },
+  { name: "MD TASLIM AHMED RAFI", id: "22-49156-3", phone: "01705626359" },
+  { name: "Md. Abdur Rahman Shuvro", id: "23-51547-1", phone: "01625906323" },
+  { name: "Md. Al- Amin", id: "22-46141-1", phone: "01944806654" },
+  { name: "Md. Ashraful Islam Jibon", id: "22-48021-2", phone: "01533423528" },
+  { name: "Md. Atiqul Islam", id: "23-51124-1", phone: "01887372439" },
+  { name: "Md. Fardin Ahammed Shanto", id: "23-51125-1", phone: "01725732168" },
+  { name: "Md. Hasib Ali Himel", id: "21-45116-2", phone: "01705602058" },
+  { name: "Md. Kawsar Ahmed", id: "21-45282-2", phone: "01736735154" },
+  { name: "Md. Mahedi Hassan", id: "23-51214-1", phone: "01704204597" },
+  { name: "Md. Maruf Billah", id: "21-45194-2", phone: "01628173426" },
+  { name: "Md. Mostofa Munzir Shohan", id: "23-51126-1", phone: "01703666299" },
+  { name: "Md. Mubashwir Ahmed Abid", id: "22-49487-3", phone: "01955077271" },
+  { name: "Md. Munaimur Rahman", id: "21-45195-2", phone: "01307680074" },
+  { name: "Md. Nahin Khan", id: "23-51127-1", phone: "01740924976" },
+  { name: "Md. Naimur Islam", id: "22-47546-2", phone: "01940381615" },
+  { name: "Md. Rakib Hasan", id: "23-51549-1", phone: "01828114002" },
+  { name: "Md. Saaim- Bin- Sadek", id: "21-45283-2", phone: "01709406087" },
+  { name: "Md. Safayed Ahmed Sany", id: "22-47124-1", phone: "01878076634" },
+  { name: "Md. Salman Mia Shanto", id: "23-51128-1", phone: "01518485233" },
+  { name: "Md. Siam Ahmed", id: "23-51129-1", phone: "01740880373" },
+  { name: "Md. Tarikul Islam", id: "21-45284-2", phone: "01799276518" },
+  { name: "Md. Umayer Hossain Sakib", id: "23-51131-1", phone: "01521711204" },
+  { name: "Md.Yeasin Hossain", id: "21-45196-2", phone: "01968833924" },
+  { name: "Mehrab Hossen Siam", id: "23-50009-1", phone: "01704221719" },
+  { name: "MOHAMMAD TANVIR RAHMAN", id: "22-49419-3", phone: "01615967756" },
+  { name: "Mohiminul Haq Moon", id: "23-51218-1", phone: "01784534149" },
+  { name: "Mst Fatematuz Johura", id: "21-45197-2", phone: "01920803719" },
+  { name: "Mst. Sammi Akter Sumona", id: "23-51134-1", phone: "01758178875" },
+  { name: "Musfika Afrin Lamia", id: "22-47101-1", phone: "01763784013" },
+  { name: "NABIHA TASNIM ISLAM", id: "23-51551-1", phone: "01913165313" },
+  { name: "Najmul Hasan Nadim", id: "23-51136-1", phone: "01903673070" },
+  { name: "Nasima Akter", id: "23-51138-1", phone: "01511210138" },
+  { name: "Noor-E-Zannat Siddique", id: "22-46603-1", phone: "01725593847" },
+  { name: "Nuzhatun Nesa", id: "21-44754-1", phone: "01988894451" },
+  { name: "Ommay Habiba Popy", id: "21-44751-1", phone: "01764264648" },
+  { name: "Oishee Talukder", id: "22-47043-1", phone: "01741595085" },
+  { name: "Preom Kar", id: "21-45371-2", phone: "01955437887" },
+  { name: "Pulok Roy", id: "23-51552-1", phone: "01788226051" },
+  { name: "Raihan Ali Mollah", id: "21-45285-2", phone: "01727393457" },
+  { name: "Rifat Ali", id: "21-45198-2", phone: "01911961448" },
+  { name: "S. M. Mahbubur Rahman Jiyon", id: "22-49348-3", phone: "01752496739" },
+  { name: "Sabrina Kabir", id: "23-51222-1", phone: "01740268598" },
+  { name: "Sadhin Ahmed Shawon", id: "23-51141-1", phone: "01701384351" },
+  { name: "Safat Jamil Orgho", id: "21-45117-2", phone: "01711202021" },
+  { name: "Sanjida Rahman Mim", id: "21-45199-2", phone: "01951909569" },
+  { name: "Sarah Kabir", id: "23-51144-1", phone: "01980839446" },
+  { name: "Samiun Islam Chowdhury", id: "21-45118-2", phone: "01762111585" },
+  { name: "Shahnaj Akter Shanu", id: "23-51146-1", phone: "01306607218" },
+  { name: "Sharif Ahmed Shawon", id: "21-45120-2", phone: "01648218683" },
+  { name: "Shariful Islam", id: "21-45286-2", phone: "01777286392" },
+  { name: "Shuvo Das", id: "23-51554-1", phone: "01760443909" },
+  { name: "Siam Al Shariar", id: "23-51223-1", phone: "01994246820" },
+  { name: "Siam- Ul- Islam- Siam", id: "21-45121-2", phone: "01931651848" },
+  { name: "Syeda Tahshin Tabassum Shuchi", id: "23-51555-1", phone: "01755919532" },
+  { name: "Tahrima Siddique", id: "23-51556-1", phone: "01754876935" },
+  { name: "Tasmia Tabassum", id: "21-45200-2", phone: "01851219416" },
+  { name: "Tushar Dev Nath", id: "21-45122-2", phone: "01581403080" },
+  { name: "Umme Habiba Sumaiya", id: "23-51557-1", phone: "01732649539" },
+  { name: "Warda Akter", id: "22-49349-3", phone: "01706240292" },
+  { name: "Yeasir Arafat", id: "22-46605-1", phone: "01754408139" },
+  { name: "Zeba Fariha Khan", id: "22-48764-3", phone: "01712415175" },
+  { name: "Zubayer Ali Hridoy", id: "23-50012-1", phone: "01905380582" },
+  { name: "Aninda Sarker", id: "22-47209-1", phone: "01990425026" },
+  { name: "Syeda Jannatul Ferdous", id: "22-47210-1", phone: "01825126135" },
+  { name: "A.B.M Abdullah AL Mamun", id: "24-58664-2", phone: "1735235217" },
+  { name: "Mst Nusrat Jahan Nijhum", id: "23-51211-1", phone: "1722377302" },
+  { name: "Mubeenur Rahman", id: "24-57255-2", phone: "1309542330" },
+  { name: "Nafiz khan", id: "25-61625-1", phone: "1924451741" },
   { name: "Suraiya Hussain", id: "24-58696-2", phone: "1403914682" },
   { name: "Masuma Alam", id: "23-55845-3", phone: "1630082041" },
-  { name: "Sarbik Ibnul Rifat", id: "22-48025-2", phone: "1643230097" }
+  { name: "Sarbik Ibnul Rifat", id: "22-48025-2", phone: "1643230097" },
+  { name: "MD FAHIM SHAHRIAR", id: "24-60185-3", phone: "1827164943" },
+  { name: "Mohammad Ariful Haque", id: "23-54680-3", phone: "1756369705" },
+  { name: "Md. Wasif Shahriar", id: "23-53494-3", phone: "1914418181" },
+  { name: "Shobnom Mostary", id: "25-61496-1", phone: "1908734597" },
+  { name: "Mayaz Ahmed", id: "24-59213-3", phone: "1518990331" },
+  { name: "Ekthekher Roshid Simon", id: "23-55863-3", phone: "1754305972" },
+  { name: "Nur-E-jannat Siddique", id: "22-46603-1", phone: "1725593847" }
 ];
 
 const CANDIDATE_IMAGE = "/mubeen.jpeg";
@@ -288,10 +391,7 @@ const App = () => {
               <a href="#voter-info" className="w-full sm:w-auto bg-white text-[var(--color-sea-green)] px-8 py-4 rounded-2xl font-black text-lg hover:bg-amber-400 hover:text-emerald-950 transition-all shadow-xl active:scale-95 flex items-center justify-center gap-3 group">
                 GET VOTER SLIP <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
-              <div className="text-center lg:text-left">
-                 <p className="text-[8px] uppercase font-black tracking-wider text-emerald-300 mb-0.5">Registration ID</p>
-                 <p className="text-2xl md:text-3xl font-black font-mono tracking-tighter">24-57255-2</p>
-              </div>
+  
             </div>
           </div>
 
@@ -320,7 +420,7 @@ const App = () => {
       <section id="vision" className="py-16 md:py-24 max-w-7xl mx-auto px-6 print:hidden">
         <div className="grid md:grid-cols-2 gap-12 items-center">
            <div className="space-y-6">
-              <span className="text-[var(--color-sea-green)] font-black tracking-widest uppercase text-[10px] block">Mission 2025-1026</span>
+              <span className="text-[var(--color-sea-green)] font-black tracking-widest uppercase text-[10px] block">Mission 2025-2026</span>
               <h2 className="text-3xl md:text-5xl font-black text-slate-900 leading-none tracking-tighter">Leading with <br/><span className="text-[var(--color-sea-green)] italic">Digital Vision</span></h2>
               <div className="space-y-4 pt-4">
                  {[
