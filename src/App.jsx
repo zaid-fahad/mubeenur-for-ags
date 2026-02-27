@@ -281,7 +281,7 @@ const App = () => {
             </h1>
             
             <p className="text-lg md:text-2xl font-bold opacity-90 max-w-xl">
-              Candidate for <span className="text-amber-400 italic">Assistant General Secretary</span> (2024-25)
+              Candidate for <span className="text-amber-400 italic">Assistant General Secretary</span> (2025-26)
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6 pt-2">
@@ -320,7 +320,7 @@ const App = () => {
       <section id="vision" className="py-16 md:py-24 max-w-7xl mx-auto px-6 print:hidden">
         <div className="grid md:grid-cols-2 gap-12 items-center">
            <div className="space-y-6">
-              <span className="text-[var(--color-sea-green)] font-black tracking-widest uppercase text-[10px] block">Mission 2024</span>
+              <span className="text-[var(--color-sea-green)] font-black tracking-widest uppercase text-[10px] block">Mission 2025-1026</span>
               <h2 className="text-3xl md:text-5xl font-black text-slate-900 leading-none tracking-tighter">Leading with <br/><span className="text-[var(--color-sea-green)] italic">Digital Vision</span></h2>
               <div className="space-y-4 pt-4">
                  {[
