@@ -913,7 +913,7 @@ const App = () => {
             {/* Promotional Offer Box */}
           <div className="bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl flex flex-col md:flex-row items-center gap-4 shadow-xl max-w-md mx-auto lg:mx-0 overflow-hidden">
             <div className="bg-amber-400 p-2 rounded-lg text-emerald-950 shrink-0">
-              <Ticket size={20} strokeWidth={2.5} />
+            
             </div>
             <div className="flex-1 min-w-0">
               <p className="font-bold text-xs md:text-sm text-white leading-tight">
