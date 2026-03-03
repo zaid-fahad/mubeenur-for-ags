@@ -910,6 +910,30 @@ const App = () => {
               Candidate for <span className="text-amber-400 italic">Assistant General Secretary</span> (2025-26)
             </p>
 
+            {/* Promotional Offer Box */}
+          <div className="bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-xl flex flex-col md:flex-row items-center gap-4 shadow-xl max-w-md mx-auto lg:mx-0 overflow-hidden">
+            <div className="bg-amber-400 p-2 rounded-lg text-emerald-950 shrink-0">
+              <Ticket size={20} strokeWidth={2.5} />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="font-bold text-xs md:text-sm text-white leading-tight">
+                Vote for Mubeenur & get <span className="text-amber-400 font-black">10% OFF</span> on all Shutara products!
+              </p>
+              <div className="flex items-center gap-2 mt-1.5 flex-wrap justify-center md:justify-start">
+                 <span className="text-[9px] uppercase font-black tracking-widest text-emerald-300 shrink-0">Coupon:</span>
+                 <code className="bg-white/10 px-1.5 py-0.5 rounded font-mono font-black text-amber-400 text-[10px] tracking-wider shrink-0">MUBEENUR10</code>
+                 <a 
+                  href="https://shutara.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-center gap-1 text-[9px] font-black uppercase text-white hover:text-amber-400 transition-colors border-b border-white/20 pb-0.5 shrink-0"
+                 >
+                   shutara.com <ExternalLink size={8} />
+                 </a>
+              </div>
+            </div>
+          </div>
+
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6 pt-2">
               <a href="#voter-info" className="w-full sm:w-auto bg-white text-[var(--color-sea-green)] px-8 py-4 rounded-2xl font-black text-lg hover:bg-amber-400 hover:text-emerald-950 transition-all shadow-xl active:scale-95 flex items-center justify-center gap-3 group">
                 GET VOTER SLIP <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
