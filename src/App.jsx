@@ -928,7 +928,7 @@ const App = () => {
                   rel="noopener noreferrer" 
                   className="flex items-center gap-1 text-[9px] font-black uppercase text-white hover:text-amber-400 transition-colors border-b border-white/20 pb-0.5 shrink-0"
                  >
-                   shutara.com <ExternalLink size={8} />
+                   shutara.com 
                  </a>
               </div>
             </div>
